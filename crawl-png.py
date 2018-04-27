@@ -41,8 +41,7 @@ def main():
     url="https://tieba.baidu.com/p/2460150866"
     page = getPage(url)
     while not page:
-
-    getImg(page)
+        getImg(page)
 
 if __name__=="__main__":
     main()
